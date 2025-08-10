@@ -1,0 +1,9 @@
+# Minimal example of EU AI Act rule encoding
+risk_levels:
+  - minimal
+  - limited
+  - high
+controls:
+  minimal: [transparency_notice]
+  limited: [transparency_notice, logging]
+  high: [risk_management, data_governance, logging, human_oversight, accuracy_robustness, post_market_monitoring]

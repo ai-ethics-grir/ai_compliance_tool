@@ -1,0 +1,4 @@
+# Simplified FINMA controls mapping (illustrative)
+controls:
+  outsourcing: [third_party_risk, audit_rights]
+  decision_automation: [human_oversight, traceability, accountability]
